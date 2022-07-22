@@ -1,0 +1,9 @@
+import React from 'react';
+export default function About(props){
+    return (
+        <div className="container my-5">
+            <h3 className="text-primary">About Us</h3>
+            <p className="lead" style={{color:props.mode === 'light'?'black':'white'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae voluptas praesentium ullam sint, dolorum atque minima incidunt optio commodi veritatis delectus totam amet omnis. Ut earum nulla amet dicta aliquid enim placeat veritatis incidunt recusandae cum at quisquam, labore unde laudantium in dolorum repellendus quis laboriosam maxime rem a quidem. Hic in dolores, ea aliquam facere, corrupti, cumque velit labore qui enim soluta. Alias cum reiciendis aspernatur et assumenda aperiam accusamus laborum perferendis ducimus? Ea placeat tempore nostrum natus corporis provident velit vitae dolorem voluptatibus a? Dolores sit nihil, exercitationem explicabo quidem fugiat magni totam, accusamus minima, odit doloremque. Error, temporibus reprehenderit ipsam totam repellat hic rem obcaecati consequatur odit rerum est! Qui magni ex quae, esse consectetur numquam veniam corrupti earum quam autem est odio nostrum cum, officiis eos recusandae. Voluptatem debitis veritatis labore laboriosam esse consectetur placeat earum, distinctio dolores enim, assumenda quod itaque corrupti accusantium quos rem perspiciatis nulla sapiente deleniti! Asperiores debitis qui, quis aut soluta alias quae, voluptatum natus porro est suscipit esse aliquam dolor a consectetur omnis aperiam fuga molestiae minima, veritatis possimus quisquam accusamus error pariatur. Laboriosam quae temporibus consequuntur atque excepturi ipsa, neque molestias quos perferendis dolorem cumque provident itaque, alias doloribus!</p>
+        </div>
+    )
+}
